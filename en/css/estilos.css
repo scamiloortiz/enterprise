@@ -1,0 +1,225 @@
+.social-bar {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+
+.icon-facebook {
+  background: #2E406E;
+}
+
+.icon-twitter {
+  background: #339DC5;
+}
+
+.icon-youtube {
+  background: #E83028;
+}
+
+.icon-instagram {
+  background: #3F60A5;
+}
+
+.icon:first-child {
+  border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+.helps{
+
+  margin-top: -56px;
+}
+
+
+
+
+.fa-facebook{
+  height: 50%;
+  height: 50%;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+
+
+.country{
+  
+  margin-left: 88%;
+}
+
+
+.contenedor-redes{
+  width: 500px;
+  left: 0;
+  position: fixed;
+  top: 30%;
+  margin-left: 10px;
+
+}
+
+
+.icons{
+  margin-bottom: 10px;
+  position: relative;
+  top: 50%;
+}
+
+.icono-primary{
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background: #3b5998;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+}
+
+
+.color-whatsapp{
+  background: #59bf10;
+}
+
+.color-email{
+  background: #ef4c0b;
+
+}
+
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.contenedor-descripcion{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 24px;
+}
+
+.icono-descripcion{
+  width: 250px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #3b5998;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+
+  -webkit-transform: translate3d(-110%, 0, 0);
+  -ms-transform: translate3d(-110%, 0, 0);
+  -o-transform: translate3d(-110%, 0, 0);
+  transform: translate3d(-110%, 0, 0);
+
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+
+.descript{
+  width: 250px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #59bf10;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+
+  -webkit-transform: translate3d(-110%, 0, 0);
+  -ms-transform: translate3d(-110%, 0, 0);
+  -o-transform: translate3d(-110%, 0, 0);
+  transform: translate3d(-110%, 0, 0);
+
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+
+.descemail{
+   width: 250px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #ef4c0b;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+  border-radius: 0 20px 20px 0;
+  -webkit-box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 0 1px rgba(0,0,0,0.5);
+
+  -webkit-transform: translate3d(-110%, 0, 0);
+  -ms-transform: translate3d(-110%, 0, 0);
+  -o-transform: translate3d(-110%, 0, 0);
+  transform: translate3d(-110%, 0, 0);
+
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.icono-primary:hover ~ .contenedor-descripcion .icono-descripcion{
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+  transform: translate(0);
+}
+
+
+.svg-inline--fa .fa-whatsapp .fa-w-14{
+  width: 30%;
+}
+
+/**@media (min-width: 330px) {
+  .contenedor-redes {
+    
+    top: 115%;
+    position: absolute;
+    
+  }**/
+
+
+
+
+
